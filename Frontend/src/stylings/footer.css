@@ -1,0 +1,242 @@
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  
+}
+
+a {
+  transition: .3s;
+}
+
+a:hover,
+a:active,
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+.footer {
+  position: relative;
+  padding-top: 10px;
+  background: #121518;
+  /* min-height: 100vh; */
+
+}
+
+.footer .footer-about,
+.footer .footer-contact,
+.footer .footer-links,
+.footer .footer-project {
+  position: relative;
+  margin-bottom: 2px;
+  color: #999999;
+  font-size: small ;
+}
+
+.footer .footer-about h5,
+.footer .footer-contact h5,
+.footer .footer-links h5,
+.footer .footer-project h5 {
+  position: relative;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  font-size: 15px;
+  font-weight: 200;
+  color: #eeeeee;
+}
+
+.footer .footer-about h5::after,
+.footer .footer-contact h5::after,
+.footer .footer-links h5::after,
+.footer .footer-project h5::after {
+  position: absolute;
+  content: "";
+  width: 25px;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  background: #eeeeee;
+}
+
+.footer .footer-social {
+  position: relative;
+  margin-top: 0px;
+}
+
+.footer .footer-social a {
+  display: inline-block;
+  width: 35px;
+  height: 30px;
+  padding: 3px 0;
+  text-align: center;
+  color: #999999;
+  font-size: 14px;
+  border: 1px solid #999999;
+  border-radius: 35px;
+}
+
+.footer .footer-social a:hover {
+  color: #ffffff;
+  background: #0085ff;
+  border-color: #0085ff;
+}
+
+.footer .footer-contact p {
+  margin-bottom: 5px;
+  font-size: 11px;
+  color: #999999;
+}
+
+.footer .footer-contact i {
+  margin-right: 10px;
+  font-size: 16px;
+  color: #999999;
+}
+
+.footer .footer-contact a:last-child i {
+  margin: 15px;
+}
+
+.footer .footer-contact a:hover i {
+  color: #0085ff;
+}
+
+.footer .footer-links a {
+  display: block;
+  margin-bottom: 6px;
+  padding-left: 15px;
+  color: #999999;
+}
+
+.footer .footer-links a:last-child {
+  margin: 0;
+}
+
+.footer .footer-links a:hover {
+  color: #0085ff;
+}
+
+.footer .footer-links a::before {
+  position: absolute;
+  content: "\f105";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
+  left: 0;
+}
+
+.footer .footer-project {
+  float: left;
+  font-size: 0;
+}
+
+.footer .footer-project a {
+  padding: 0 8px 8px 0;
+  display: block;
+  width: 33.33%;
+  float: left;
+}
+
+.footer .footer-project a img {
+  width: 100%;
+}
+
+.footer .footer-newsletter {
+  margin-bottom: 0px;
+  max-width: 700px;
+  text-align: center;
+  color: #999999;
+}
+
+.footer .footer-newsletter input {
+  height: 0px;
+  border: none;
+  border-radius: 5px;
+  background: rgba(256, 256, 256, .15);
+  margin-bottom: 15px;
+}
+
+.footer .footer-newsletter .btn {
+  display: block;
+  width: 100%;
+  height: 35px;
+  font-size: 0px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #0085ff;
+  border-radius: 5px;
+  border: none;
+  transition: .3s;
+}
+
+.footer .footer-newsletter .btn:hover {
+  color: #0085ff;
+  background: #ffffff;
+}
+
+.footer .footer-newsletter .btn:focus {
+  box-shadow: none;
+}
+
+.footer .copyright {
+  position: relative;
+  padding: 5px 0;
+  background: #000000;
+}
+
+.footer .copyright .copy-text p {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 600;
+  color: #999999;
+}
+
+.footer .copyright .copy-text p a {
+  color: #999999;
+  text-decoration: underline;
+}
+
+.footer .copyright .copy-text p a:hover {
+  color: #0085ff;
+}
+
+.footer .copyright .copy-menu {
+  position: relative;
+  font-size: 0;
+  text-align: right;
+}
+
+.footer .copyright .copy-menu a {
+  color: #999999;
+  font-size: 12px;
+  font-weight: 400;
+  margin-right: 15px;
+  padding-right: 15px;
+  border-right: 1px solid rgba(255, 255, 255, .3);
+}
+
+.footer .copyright .copy-menu a:hover {
+  color: #0085ff;
+}
+
+.footer .copyright .copy-menu a:last-child {
+  margin-right: 0;
+  padding-right: 0;
+  border-right: none;
+}
+
+@media (max-width: 767.98px) {
+  .footer .copyright .copy-text,
+  .footer .copyright .copy-menu {
+      text-align: center;
+  }
+  
+  .footer .copyright .copy-text p {
+      margin-bottom: 5px;
+  }
+  
+}
+
+
